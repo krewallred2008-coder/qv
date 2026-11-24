@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nametagtoggle",
+  "version": "${version}",
+  "name": "Nametag Toggle",
+  "description": "Press a key to turn nametags on and off.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.nametagtoggle.NametagToggleClient"]
+  },
+  "mixins": ["nametagtoggle.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
